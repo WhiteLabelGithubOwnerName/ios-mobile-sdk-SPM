@@ -1690,7 +1690,7 @@
           {
             "kind": "Function",
             "name": "launchPayment",
-            "printedName": "launchPayment(token:)",
+            "printedName": "launchPayment(token:paymentMethodConfigurationId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1702,11 +1702,26 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WalleePaymentSdkAAC06launchB05tokenySS_tF",
-            "mangledName": "$s16WalleePaymentSdkAAC06launchB05tokenySS_tF",
+            "usr": "s:16WalleePaymentSdkAAC06launchB05token28paymentMethodConfigurationIdySS_SiSgtF",
+            "mangledName": "$s16WalleePaymentSdkAAC06launchB05token28paymentMethodConfigurationIdySS_SiSgtF",
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -2736,7 +2751,7 @@
       "kind": "StringLiteral",
       "offset": 301,
       "length": 7,
-      "value": "\"9.5.0\""
+      "value": "\"1.5.0\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/Theme.swift",

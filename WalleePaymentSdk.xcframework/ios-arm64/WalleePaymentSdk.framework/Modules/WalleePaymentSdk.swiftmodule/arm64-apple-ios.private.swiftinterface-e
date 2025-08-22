@@ -58,7 +58,7 @@ public class WalleePaymentSdk {
   public static let SDK_VERSION: Swift.String
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
   public init(eventObserver: any WalleePaymentSdk.WalleePaymentResultObserver)
-  public func launchPayment(token: Swift.String)
+  public func launchPayment(token: Swift.String, paymentMethodConfigurationId: Swift.Int? = nil)
   public func configureApplePay(merchantId: Swift.String)
   public func configureDeepLink(deepLink: Swift.String)
   public func configureBaseUrl(baseUrl: Swift.String?)
