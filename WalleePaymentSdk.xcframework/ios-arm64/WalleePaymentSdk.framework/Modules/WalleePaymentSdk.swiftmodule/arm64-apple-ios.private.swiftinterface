@@ -63,7 +63,7 @@ public class WalleePaymentSdk {
   public func configureDeepLink(deepLink: Swift.String)
   public func configureBaseUrl(baseUrl: Swift.String?)
   @available(iOS 13.0, *)
-  public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool)
+  public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool, paymentMethodConfigurationId: Swift.Int? = nil)
   public func close()
   public func setLightTheme(light: Foundation.NSMutableDictionary)
   public func setAnimation(type: AnimationEnum)
