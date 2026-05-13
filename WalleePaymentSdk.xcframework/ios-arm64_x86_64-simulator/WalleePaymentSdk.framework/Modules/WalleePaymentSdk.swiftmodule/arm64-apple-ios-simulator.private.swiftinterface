@@ -1,0 +1,198 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalleePaymentSdk
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Combine
+import Foundation
+import PassKit
+import ReactBrownfield
+import Swift
+import SwiftUI
+import ThreeDS_SDK
+import TwintSDK
+import UIKit
+@_exported import WalleePaymentSdk
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(GlobalEventSenderModule) public class GlobalEventSenderModule : ObjectiveC.NSObject {
+  @objc public static let EVENT_SWIFT_TO_OBJC_LISTENER_NAME: Swift.String
+  @objc public static let BODY_PROP: Swift.String
+  @objc public static let EVENT_PROP: Swift.String
+  @objc public static func getConstants() -> [Swift.String : Any]
+  @objc public static func supportedEvents() -> [Swift.String]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(TwintModule) public class TwintModule : ObjectiveC.NSObject {
+  @objc(shared) public static let shared: WalleePaymentSdk.TwintModule
+  public static let TWINT_DATA_KEY: Swift.String
+  public static let TWINT_EVENT_NAME: Swift.String
+  public enum TwintResult : Swift.String {
+    case SUCCESS
+    case ERROR
+    case NOT_INSTALLED
+    case CODE_INVALID
+    case IOS_SCHEMA_INVALID
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public static func onHandleError(errorCode: Swift.Int) -> Swift.String
+  public static func onHandleTwintOpenUrl(url: Foundation.URL) -> Swift.Bool
+  @objc(constantsToExport) public func constantsToExport() -> [Swift.AnyHashable : Any]
+  @objc(payWithCode:) public func payWithCode(_ paymentCode: Foundation.NSString)
+  @objc(registerForUOF:) public func registerForUOF(_ paymentCode: Foundation.NSString)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class CloseAppModalModule : ObjectiveC.NSObject {
+  @objc public static let shared: WalleePaymentSdk.CloseAppModalModule
+  @objc public func closeIosApp()
+  @objc deinit
+}
+public typealias PromiseResolve = (Any?) -> Swift.Void
+public typealias PromiseReject = (Swift.String?, Swift.String?, (any Swift.Error)?) -> Swift.Void
+public enum PaymentResultEnum : Swift.String {
+  case CANCELED
+  case FAILED
+  case COMPLETED
+  case TIMEOUT
+  case PENDING
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PaymentResult {
+  public var code: WalleePaymentSdk.PaymentResultEnum
+  public var message: Swift.String?
+}
+@_hasMissingDesignatedInitializers public class PaymentSdk {
+  public static let shared: WalleePaymentSdk.PaymentSdk
+  public static let SDK_VERSION: Swift.String
+  public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
+  public func initialize()
+  public func resultObserver(eventObserver: any WalleePaymentSdk.PaymentResultObserver)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func launchPayment(token: Swift.String, paymentMethodConfigurationId: Swift.Int? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13.0, *)
+  public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool, paymentMethodConfigurationId: Swift.Int? = nil)
+  #endif
+  public func configureApplePay(merchantId: Swift.String)
+  public func configureDeepLink(deepLink: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func configureBaseUrl(baseUrl: Swift.String?)
+  #endif
+  public func close()
+  public func setLightTheme(light: Foundation.NSMutableDictionary)
+  public func setAnimation(type: WalleePaymentSdk.AnimationEnum)
+  public func setDarkTheme(dark: Foundation.NSMutableDictionary)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class ResizeScreenModule : ObjectiveC.NSObject {
+  @objc public static var RESIZE_SCREEN_OBSERVER: Swift.String
+  @objc public static let shared: WalleePaymentSdk.ResizeScreenModule
+  @objc public func resize(_ isOriginSize: Swift.Bool)
+  @objc public func resizeDynamically(_ size: Foundation.NSNumber)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class ApplePayButton : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var onPressCallback: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public enum AnimationEnum : Swift.String {
+  case BUBBLE
+  case SLIDE
+  case NONE
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ThemeEnum : Swift.String {
+  case LIGHT
+  case DARK
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ThreeDSModule) public class ThreeDSModule : ObjectiveC.NSObject {
+  @objc(shared) public static let shared: WalleePaymentSdk.ThreeDSModule
+  public enum ThreeDSResult : Swift.String {
+    case SUCCESS
+    case ERROR
+    case CANCELLED
+    case TIMEOUT
+    case PROTOCOL_ERROR
+    case RUNTIME_ERROR
+    case INIT_SUCCESSFUL
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public static let THREEDS_DATA_KEY: Swift.String
+  public static let THREEDS_EVENT_NAME: Swift.String
+  public static let THREEDS_ERROR_MESSAGE: Swift.String
+  @objc(constantsToExport) public func constantsToExport() -> [Swift.AnyHashable : Any]
+  @objc public func start3DS(_ data: Foundation.NSDictionary, resolve: @escaping WalleePaymentSdk.PromiseResolve, rejecter reject: @escaping WalleePaymentSdk.PromiseReject)
+  @objc public func createTransaction(_ resolve: @escaping WalleePaymentSdk.PromiseResolve, rejecter reject: @escaping WalleePaymentSdk.PromiseReject)
+  @objc public func startChallenge(_ data: Foundation.NSDictionary)
+  @objc deinit
+}
+public protocol PaymentResultObserver : AnyObject {
+  func paymentResult(paymentResultMessage: WalleePaymentSdk.PaymentResult)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class SendEventModule : ObjectiveC.NSObject {
+  @objc public static let shared: WalleePaymentSdk.SendEventModule
+  @objc public func sendPaymentResultToApp(message: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ApplePayModule) public class ApplePayModule : ObjectiveC.NSObject {
+  public static let APPLEPAY_DATA_KEY: Swift.String
+  public static let APPLEPAY_EVENT_NAME: Swift.String
+  @objc(shared) public static let shared: WalleePaymentSdk.ApplePayModule
+  @objc public func constantsToExport() -> [Swift.AnyHashable : Any]
+  @objc public func initialisePayment(_ data: Foundation.NSDictionary, resolve: @escaping WalleePaymentSdk.PromiseResolve, rejecter reject: @escaping WalleePaymentSdk.PromiseReject)
+  @objc public func getApplePayStatus(_ data: Foundation.NSDictionary, resolve: @escaping WalleePaymentSdk.PromiseResolve, rejecter reject: @escaping WalleePaymentSdk.PromiseReject)
+  @objc deinit
+}
+extension WalleePaymentSdk.TwintModule.TwintResult : Swift.Equatable {}
+extension WalleePaymentSdk.TwintModule.TwintResult : Swift.Hashable {}
+extension WalleePaymentSdk.TwintModule.TwintResult : Swift.RawRepresentable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.Equatable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.Hashable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.RawRepresentable {}
+extension WalleePaymentSdk.AnimationEnum : Swift.Equatable {}
+extension WalleePaymentSdk.AnimationEnum : Swift.Hashable {}
+extension WalleePaymentSdk.AnimationEnum : Swift.RawRepresentable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.Equatable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.Hashable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.RawRepresentable {}
+extension WalleePaymentSdk.ThreeDSModule.ThreeDSResult : Swift.Equatable {}
+extension WalleePaymentSdk.ThreeDSModule.ThreeDSResult : Swift.Hashable {}
+extension WalleePaymentSdk.ThreeDSModule.ThreeDSResult : Swift.RawRepresentable {}

@@ -1,0 +1,11 @@
+framework module ReactBrownfield {
+  umbrella header "ReactBrownfield-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ReactBrownfield.Swift {
+  header "ReactBrownfield-Swift.h"
+  requires objc
+}
