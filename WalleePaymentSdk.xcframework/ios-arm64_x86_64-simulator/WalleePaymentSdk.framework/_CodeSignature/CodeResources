@@ -182,7 +182,7 @@
 		</data>
 		<key>Frameworks/TwintSDK.framework/TwintSDK</key>
 		<data>
-		FBm39YQO30rmSwHAvlkWGpUVD1k=
+		rKD08X5gm36b3/sto/RRpBN+sTE=
 		</data>
 		<key>Frameworks/TwintSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -198,11 +198,11 @@
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Tyfb1avTg0fULvgZLs/WoP2l39o=
+		Lf7CbfjvcRlyquc4GFyRcLv6s7w=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RuAXiLyeA9f+kgx5ekAaR1oq79g=
+		f3gEH5jAJZ6BM1Cj4pHaKTuh8ak=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -623,7 +623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MRX9uDlrOd76tZyjWOlOddUWzSKVk+EZYk2FQz51ALY=
+			8Ik7dVwK7drXAU0mwdTHUG4cKEEulePOJc5lHmiR4MA=
 			</data>
 		</dict>
 		<key>Frameworks/TwintSDK.framework/_CodeSignature/CodeResources</key>
@@ -644,14 +644,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2sYgEzjnK+vDABj4CNAy1qf60hAW0LTHcrSwd/ZioEQ=
+			v1/DYTcELysV1/WrBpDx4uMW1SpuSS+HaC4WPJazWMA=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			etNYUWIyekZ55zksv5ByqxvWOtZFEBXm6kerN/QOTaM=
+			xtqq8kKfCFJN7Ss87qGWFqOSZbR9k6Jyl41pvH47hR8=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
