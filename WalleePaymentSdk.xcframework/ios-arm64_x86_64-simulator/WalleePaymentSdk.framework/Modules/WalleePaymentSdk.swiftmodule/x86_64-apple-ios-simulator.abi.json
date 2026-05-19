@@ -5810,7 +5810,7 @@
       "kind": "StringLiteral",
       "offset": 289,
       "length": 7,
-      "value": "\"2.0.1\""
+      "value": "\"2.0.2\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
