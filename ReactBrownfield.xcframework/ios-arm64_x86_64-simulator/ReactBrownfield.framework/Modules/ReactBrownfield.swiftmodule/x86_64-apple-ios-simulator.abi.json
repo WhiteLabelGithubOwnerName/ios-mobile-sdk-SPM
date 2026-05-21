@@ -1,0 +1,1766 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ReactBrownfield",
+    "printedName": "ReactBrownfield",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React_RCTAppDelegate",
+        "printedName": "React_RCTAppDelegate",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReactAppDependencyProvider",
+        "printedName": "ReactAppDependencyProvider",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeBrownfield",
+        "printedName": "ReactNativeBrownfield",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeBrownfield",
+                "printedName": "ReactBrownfield.ReactNativeBrownfield",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ReactBrownfield0a6NativeB0C6sharedACvpZ",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C6sharedACvpZ",
+            "moduleName": "ReactBrownfield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReactNativeBrownfield",
+                    "printedName": "ReactBrownfield.ReactNativeBrownfield",
+                    "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0a6NativeB0C6sharedACvgZ",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C6sharedACvgZ",
+                "moduleName": "ReactBrownfield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entryFile",
+            "printedName": "entryFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(py)entryFile",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C9entryFileSSvp",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)entryFile",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C9entryFileSSvg",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)setEntryFile:",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C9entryFileSSvs",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0a6NativeB0C9entryFileSSvM",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C9entryFileSSvM",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fallbackResource",
+            "printedName": "fallbackResource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(py)fallbackResource",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C16fallbackResourceSSSgvp",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)fallbackResource",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C16fallbackResourceSSSgvg",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)setFallbackResource:",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C16fallbackResourceSSSgvs",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0a6NativeB0C16fallbackResourceSSSgvM",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C16fallbackResourceSSSgvM",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundlePath",
+            "printedName": "bundlePath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(py)bundlePath",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C10bundlePathSSvp",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)bundlePath",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C10bundlePathSSvg",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)setBundlePath:",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C10bundlePathSSvs",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0a6NativeB0C10bundlePathSSvM",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C10bundlePathSSvM",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(py)bundle",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C6bundleSo8NSBundleCvp",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)bundle",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C6bundleSo8NSBundleCvg",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)setBundle:",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C6bundleSo8NSBundleCvs",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0a6NativeB0C6bundleSo8NSBundleCvM",
+                "mangledName": "$s15ReactBrownfield0a6NativeB0C6bundleSo8NSBundleCvM",
+                "moduleName": "ReactBrownfield",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startReactNative",
+            "printedName": "startReactNative()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)startReactNative",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C05startaC0yyF",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view(moduleName:initialProps:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)viewWithModuleName:initialProps:launchOptions:",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C4view10moduleName12initialProps13launchOptionsSo6UIViewCSgSS_SDys11AnyHashableVypGSgANtF",
+            "moduleName": "ReactBrownfield",
+            "objc_name": "viewWithModuleName:initialProps:launchOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startReactNative",
+            "printedName": "startReactNative(onBundleLoaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)startReactNativeOnBundleLoaded:",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C05startaC014onBundleLoadedyyycSg_tF",
+            "moduleName": "ReactBrownfield",
+            "objc_name": "startReactNativeOnBundleLoaded:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startReactNative",
+            "printedName": "startReactNative(onBundleLoaded:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)startReactNativeOnBundleLoaded:launchOptions:",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C05startaC014onBundleLoaded13launchOptionsyyycSg_SDys11AnyHashableVypGSgtF",
+            "moduleName": "ReactBrownfield",
+            "objc_name": "startReactNativeOnBundleLoaded:launchOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeBrownfield",
+                "printedName": "ReactBrownfield.ReactNativeBrownfield",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield(im)init",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0CACycfc",
+            "moduleName": "ReactBrownfield",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield",
+        "mangledName": "$s15ReactBrownfield0a6NativeB0C",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeBrownfieldModuleImpl",
+        "printedName": "ReactNativeBrownfieldModuleImpl",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setPopGestureRecognizerEnabled",
+            "printedName": "setPopGestureRecognizerEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfieldModuleImpl(cm)setPopGestureRecognizerEnabled:",
+            "mangledName": "$s15ReactBrownfield0a6NativeB10ModuleImplC30setPopGestureRecognizerEnabledyySbFZ",
+            "moduleName": "ReactBrownfield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "popToNative",
+            "printedName": "popToNative(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfieldModuleImpl(cm)popToNativeWithAnimated:",
+            "mangledName": "$s15ReactBrownfield0a6NativeB10ModuleImplC05popToC08animatedySb_tFZ",
+            "moduleName": "ReactBrownfield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeBrownfieldModuleImpl",
+                "printedName": "ReactBrownfield.ReactNativeBrownfieldModuleImpl",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfieldModuleImpl"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfieldModuleImpl(im)init",
+            "mangledName": "$s15ReactBrownfield0a6NativeB10ModuleImplCACycfc",
+            "moduleName": "ReactBrownfield",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfieldModuleImpl",
+        "mangledName": "$s15ReactBrownfield0a6NativeB10ModuleImplC",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeView",
+        "printedName": "ReactNativeView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(moduleName:initialProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeView",
+                "printedName": "ReactBrownfield.ReactNativeView",
+                "usr": "s:15ReactBrownfield0A10NativeViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ReactBrownfield0A10NativeViewV10moduleName17initialPropertiesACSS_SDySSypGtcfc",
+            "mangledName": "$s15ReactBrownfield0A10NativeViewV10moduleName17initialPropertiesACSS_SDySSypGtcfc",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ReactBrownfield0A10NativeViewV4bodyQrvp",
+            "mangledName": "$s15ReactBrownfield0A10NativeViewV4bodyQrvp",
+            "moduleName": "ReactBrownfield",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ReactBrownfield0A10NativeViewV4bodyQrvg",
+                "mangledName": "$s15ReactBrownfield0A10NativeViewV4bodyQrvg",
+                "moduleName": "ReactBrownfield",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ReactBrownfield0A10NativeViewV",
+        "mangledName": "$s15ReactBrownfield0A10NativeViewV",
+        "moduleName": "ReactBrownfield",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeViewController",
+        "printedName": "ReactNativeViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(moduleName:initialProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeViewController",
+                "printedName": "ReactBrownfield.ReactNativeViewController",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController(im)initWithModuleName:initialProperties:",
+            "mangledName": "$s15ReactBrownfield0A20NativeViewControllerC10moduleName17initialPropertiesACSS_SDySSypGSgtcfc",
+            "moduleName": "ReactBrownfield",
+            "objc_name": "initWithModuleName:initialProperties:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController(im)viewDidLoad",
+            "mangledName": "$s15ReactBrownfield0A20NativeViewControllerC11viewDidLoadyyF",
+            "moduleName": "ReactBrownfield",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeViewController",
+                "printedName": "ReactBrownfield.ReactNativeViewController",
+                "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s15ReactBrownfield0A20NativeViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "ReactBrownfield",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeViewController",
+        "mangledName": "$s15ReactBrownfield0A20NativeViewControllerC",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "popToNative",
+            "printedName": "popToNative",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15ReactBrownfieldE11popToNativeABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15ReactBrownfieldE11popToNativeABvpZ",
+            "moduleName": "ReactBrownfield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15ReactBrownfieldE11popToNativeABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15ReactBrownfieldE11popToNativeABvgZ",
+                "moduleName": "ReactBrownfield",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "togglePopGestureRecognizer",
+            "printedName": "togglePopGestureRecognizer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15ReactBrownfieldE26togglePopGestureRecognizerABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15ReactBrownfieldE26togglePopGestureRecognizerABvpZ",
+            "moduleName": "ReactBrownfield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15ReactBrownfieldE26togglePopGestureRecognizerABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15ReactBrownfieldE26togglePopGestureRecognizerABvgZ",
+                "moduleName": "ReactBrownfield",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 15,
+      "value": "\"main.jsbundle\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 1564,
+      "length": 15,
+      "value": "\"main.jsbundle\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 4441,
+      "length": 25,
+      "value": "\"PopToNativeNotification\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "kind": "StringLiteral",
+      "offset": 4616,
+      "length": 40,
+      "value": "\"TogglePopGestureRecognizerNotification\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "kind": "Dictionary",
+      "offset": 243,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "kind": "Dictionary",
+      "offset": 823,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "kind": "Dictionary",
+      "offset": 898,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
