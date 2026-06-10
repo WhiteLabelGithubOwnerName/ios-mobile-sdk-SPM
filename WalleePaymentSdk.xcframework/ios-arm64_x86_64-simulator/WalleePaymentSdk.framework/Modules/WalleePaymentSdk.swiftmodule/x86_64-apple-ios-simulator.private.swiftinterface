@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
-// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalleePaymentSdk
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalleePaymentSdk
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import Foundation
 import PassKit
@@ -34,7 +34,9 @@ import _SwiftConcurrencyShims
     case NOT_INSTALLED
     case CODE_INVALID
     case IOS_SCHEMA_INVALID
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -60,7 +62,9 @@ public enum PaymentResultEnum : Swift.String {
   case COMPLETED
   case TIMEOUT
   case PENDING
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -73,20 +77,29 @@ public struct PaymentResult {
 @_hasMissingDesignatedInitializers public class PaymentSdk {
   public static let shared: WalleePaymentSdk.PaymentSdk
   public static let SDK_VERSION: Swift.String
+  public static let SDK_DEPENDENCIES_VERSION: Swift.String
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
   public func initialize()
   public func resultObserver(eventObserver: any WalleePaymentSdk.PaymentResultObserver)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func launchPayment(token: Swift.String, paymentMethodConfigurationId: Swift.Int? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13.0, *)
   public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool, paymentMethodConfigurationId: Swift.Int? = nil)
+  #endif
   public func configureApplePay(merchantId: Swift.String)
   public func configureDeepLink(deepLink: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func configureBaseUrl(baseUrl: Swift.String?)
+  #endif
   public func close()
   public func setLightTheme(light: Foundation.NSMutableDictionary)
   public func setAnimation(type: WalleePaymentSdk.AnimationEnum)
   public func setDarkTheme(dark: Foundation.NSMutableDictionary)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class ResizeScreenModule : ObjectiveC.NSObject {
@@ -106,7 +119,9 @@ public enum AnimationEnum : Swift.String {
   case BUBBLE
   case SLIDE
   case NONE
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -115,7 +130,9 @@ public enum AnimationEnum : Swift.String {
 public enum ThemeEnum : Swift.String {
   case LIGHT
   case DARK
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -131,7 +148,9 @@ public enum ThemeEnum : Swift.String {
     case PROTOCOL_ERROR
     case RUNTIME_ERROR
     case INIT_SUCCESSFUL
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get

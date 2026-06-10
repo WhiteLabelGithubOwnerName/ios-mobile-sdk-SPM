@@ -777,52 +777,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -833,10 +791,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -957,52 +957,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1013,10 +971,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -1388,52 +1388,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1444,10 +1402,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1609,6 +1609,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -1670,28 +1692,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSString",
-                    "printedName": "Foundation.NSString",
-                    "usr": "c:objc(cs)NSString"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
           }
         ]
       }
@@ -1700,63 +1700,63 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 7,
       "value": "\"index\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 15,
       "value": "\"main.jsbundle\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 7,
       "value": "\"index\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 1564,
       "length": 15,
       "value": "\"main.jsbundle\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 4441,
       "length": 25,
       "value": "\"PopToNativeNotification\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeBrownfield.swift",
       "kind": "StringLiteral",
       "offset": 4616,
       "length": 40,
       "value": "\"TogglePopGestureRecognizerNotification\""
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
       "kind": "Dictionary",
       "offset": 243,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
       "kind": "Dictionary",
       "offset": 823,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
+      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/node_modules\/@callstack\/react-native-brownfield\/ios\/ReactNativeView.swift",
       "kind": "Dictionary",
       "offset": 898,
       "length": 3,

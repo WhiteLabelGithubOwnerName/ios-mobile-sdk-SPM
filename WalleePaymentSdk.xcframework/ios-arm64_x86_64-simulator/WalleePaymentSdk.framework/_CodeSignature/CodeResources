@@ -10,55 +10,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SXSKr1wDpLyGRmVEmZ0fNmS47EQ=
+		nejuOK+VW8t5PRJM88w8erjUG7Y=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Po/vFAopnfzQJ57t6+XeS7UzqUY=
+		UAm1MiCuX17n0LgZzx4HBVGivqc=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		g+z1na7ZJj6WcaTx6sIVjf72xMc=
+		Ts2ocGTayvOm1WMEmsmfY61vs+s=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4XzdImHXo0y0NBJnGtYhEk7RXFI=
+		vxbXQjHV+UKjtmcCmSqy7NAdu8c=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hTl0quwH0YX20tYDswAECK6fp4A=
+		K8KV8IoT4YrweGZZsWBqY2wJcO0=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		E6xycuR+GggYawqgGdPVd3lKuE4=
+		119Sg+55ntnfQ2zXxg9it5SzdYI=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hTl0quwH0YX20tYDswAECK6fp4A=
+		K8KV8IoT4YrweGZZsWBqY2wJcO0=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		erUAgiKMOsr8IBVb7pvMDgrBkY0=
+		EWVg6A2GKt0bdAhbodOL1rabBmc=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4XzdImHXo0y0NBJnGtYhEk7RXFI=
+		vxbXQjHV+UKjtmcCmSqy7NAdu8c=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aLbMXIgBzUMRjQbejVHYlXWL1bk=
+		hhGVbu6ndRMi7W8eeFH8EmS/F+I=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SsBsLVxz1tmUi/BUDC51b80ezcc=
+		eE4dLrHBQ7gmyXcSvhWmJ7aO4js=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aLbMXIgBzUMRjQbejVHYlXWL1bk=
+		hhGVbu6ndRMi7W8eeFH8EmS/F+I=
 		</data>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BLBSAEMlSqBJ5nP0sHqzhKPEvxY=
+		9u2I4AN1+3P86FZ1nH5rbfueF9Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>RCT-Folly_privacy.bundle/Info.plist</key>
 		<data>
-		IHcD+wozKNz/D12AFaHT8Zld0dw=
+		86V7Dm+mJnFAXSUVbJEcqBtC6ig=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<data>
-		8Xy9fT6joQzRwWnt7qGJ+vPsoNE=
+		6FkSqC0O9RDaA39NdKoQaPy3bFg=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>RNDeviceInfoPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		PdaBicI+GpV49oXd9HnP+KSGbMA=
+		h96GBN+vZk12NZa+e1+la9FZhLA=
 		</data>
 		<key>RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>RNSVGFilters.bundle/Info.plist</key>
 		<data>
-		+nPnX+JWDdSTvNYmOmZUc371s8A=
+		/eRQfRLOq5e9xq2tMsRRWBi+zIc=
 		</data>
 		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>React-Core_privacy.bundle/Info.plist</key>
 		<data>
-		uB1uthGnKAS5ONjzyVXp0frt3QA=
+		L/1U40d7eDOVgpF9IydyBl1x+ow=
 		</data>
 		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>React-cxxreact_privacy.bundle/Info.plist</key>
 		<data>
-		7sjG4FcRkGy+HudL12rhe4yCI9Y=
+		UjfG8bCZYSh0nDZTU1eQAz7Tp0w=
 		</data>
 		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -114,15 +114,15 @@
 		</data>
 		<key>boost_privacy.bundle/Info.plist</key>
 		<data>
-		mhDMPOyHR5h+P1uEA+0UfgPlQ/g=
+		rSerIrfZy8tsfyK0VVsGc1TlbF8=
 		</data>
 		<key>glog_privacy.bundle/Info.plist</key>
 		<data>
-		Mi3zEwhvqk5paGXC7+8qqH9FHJQ=
+		zTeEQ5oXQ7R7BdRpeZgDqjPQPi0=
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		2MRQHJQ5P3bVpmqf/U87OZZw0ws=
+		dCjxduPBTitwsEcj2gruJf62jHw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -138,84 +138,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmIC1E/TtJH/eRBNQE/e/eMAqwlcBqQW3Y71Nu7Gsk4=
+			r27vhQdhxCd0v/vJbU1DLn0wHYKkiIaveJRMdGLUWsc=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hKAE4Ixy1XsO9yg2TvXpjOb6eKnlIoaaoTQ/2jXbsJY=
+			6vMMjWz80GbD3L9Ab5itrx5AhdxAi+ExvHvTW8jn7kQ=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUhP/xUMeO8WszmHILzeXo8+7REcUYwGnftRCHn8fXo=
+			IJHKOsB3R5Fui+9PfrscWnEoNwJ+1Du3OKTYdEbKi/A=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FocCNIdyBjOKbXSBN1cQMgQV+Zr1aq+fIJVeANgSfcM=
+			oXfWQ2UporrIh2fCP6zH7U/nJeTsIwIZFQCgexvZT9k=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rPQN0qAxO81yhls4sE0G1lQzL41XThADei3Ud/NSlnM=
+			mzxl7ul2BzEMgNGRsZlzFWTnzYCZ9bhyALMhRJDJjhE=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FocCNIdyBjOKbXSBN1cQMgQV+Zr1aq+fIJVeANgSfcM=
+			oXfWQ2UporrIh2fCP6zH7U/nJeTsIwIZFQCgexvZT9k=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AXLu6gnzOmk/YaOpqend8FI+OlLbdBUvS31lGMAZTlU=
+			LQSjU8tj8fMqVfiNG9sYSDeIpBuaCzyiqTURODnVcXM=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUhP/xUMeO8WszmHILzeXo8+7REcUYwGnftRCHn8fXo=
+			IJHKOsB3R5Fui+9PfrscWnEoNwJ+1Du3OKTYdEbKi/A=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PiWpgh5GA1MZKbF9R6LeyXgHC34q4wt6gH6hhiPpol0=
+			6mc3hLKld3coEwOU5wVm8hY0xnzAHYAxN46qDtDn/EM=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDt+py+w9L8XavVzQupGPkcb+dSgrPBIPpNaHeuofD8=
+			XBZ0WtUFTfNGW0JQ/PFNaplWeNAIrDxojQcbl+j2eB0=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PiWpgh5GA1MZKbF9R6LeyXgHC34q4wt6gH6hhiPpol0=
+			6mc3hLKld3coEwOU5wVm8hY0xnzAHYAxN46qDtDn/EM=
 			</data>
 		</dict>
 		<key>Modules/WalleePaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGcHeMpmtCEPRNc05Lkh3Tuwbx0NXbviSTEtSu2Kask=
+			ZcO5ghzMH98QFS9+1JrLeH05TfXz6F3tcZmhtGVgOY0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -229,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/s0JWSXYpulFrW76GqsACXnjMbKxv1i/vM4AualqUF8=
+			BVaHs6tJ96S/I4sCDDPryRC0IEom0g6jYM6a9REHlRA=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxLAMqy9h9+4ZIG6Tm6VtdryQgRUc6Gf6TgPT+nOe4c=
+			QSuV/x9GTJWTDrlrFpf71T7HTJdDGMgJLjbjg4gjeH4=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
@@ -250,7 +250,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vKia4dA3aF2tq6of8h9KxLd9b02Aj0/77YZ2linD5xg=
+			fSal1W2/tDLLiYt+F8PYAdA+1zCdsKz+YTUJLl5fodc=
 			</data>
 		</dict>
 		<key>RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			utqu+FG4j4LFCqh8461G9fTY78Oz4d1vspRg3zBFyI0=
+			9DnyvHFibOMxK39xdI7Le98UyuDondHTxBeOzR921lE=
 			</data>
 		</dict>
 		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			elorkWmRxD2jHUddbhvsiCyoftMq+koabTHohdFFwDw=
+			BlHdMl862fZ4tCpr20ypnAmlac8B0gEzzLbTX0jd7Kg=
 			</data>
 		</dict>
 		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -299,7 +299,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6/BJOYVc5ioPEwRq/9Kjrc1oY7IfzbdZEbE2qmnt1+0=
+			fVUPh5+NlGOp/6WsoNooU72HyosjusocOrq8FpoxAls=
 			</data>
 		</dict>
 		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -313,21 +313,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			atRHrNcwga/FFoB49m8wYS/do6ee8O35RExgdoMMkig=
+			+zuXSx1+cGWaM3moleQBNaRsaxcw1uhLVpTerh57TB0=
 			</data>
 		</dict>
 		<key>glog_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4qhMXcdlTOe/SwkhfVyLD24BDoWD5nC1KV1WJFsmf+A=
+			58AonEyvku2BkXFAIPSzbI5yrIcZpsrp4u+22mB5VBI=
 			</data>
 		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t3SN+aQ8CZ3BXMujaAYoASJJKxOTI+tkUyEboc3l5oM=
+			KbZU6vLztd3cNrMozB2/78+NFw/tyP6vC3Ah3CYg5O0=
 			</data>
 		</dict>
 	</dict>
