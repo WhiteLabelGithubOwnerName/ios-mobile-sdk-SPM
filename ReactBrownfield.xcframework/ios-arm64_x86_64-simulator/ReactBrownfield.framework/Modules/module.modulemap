@@ -7,5 +7,4 @@ framework module ReactBrownfield {
 
 module ReactBrownfield.Swift {
   header "ReactBrownfield-Swift.h"
-  requires objc
 }

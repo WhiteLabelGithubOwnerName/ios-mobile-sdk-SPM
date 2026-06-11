@@ -302,38 +302,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -344,10 +316,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -358,10 +344,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -859,17 +859,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -1071,38 +1071,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1113,10 +1085,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1127,10 +1113,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1252,38 +1252,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1294,10 +1266,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1308,10 +1294,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1616,17 +1616,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2853,38 +2853,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2895,10 +2867,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2909,10 +2895,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -3190,38 +3190,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3232,17 +3204,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -3253,17 +3225,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3278,6 +3264,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -3512,17 +3512,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3732,17 +3732,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4241,17 +4241,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4739,38 +4739,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4781,10 +4753,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -4795,10 +4781,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -5017,38 +5017,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5059,10 +5031,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5073,10 +5059,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -5611,38 +5611,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5653,10 +5625,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5667,10 +5653,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }
@@ -5679,637 +5679,637 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 35,
       "value": "\"EVENT_SWIFT_TO_OBJC_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalTransitioningDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 256,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalTransitioningDelegate.swift",
       "kind": "FloatLiteral",
       "offset": 1396,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 15,
       "value": "\"twint-payment\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "IntegerLiteral",
       "offset": 826,
       "length": 2,
       "value": "39"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 869,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 925,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 1051,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 1093,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 1207,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Observers\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 12,
       "value": "\"PaymentSdk\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 43,
       "value": "\"wallee-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "BooleanLiteral",
       "offset": 620,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNViewAnimated.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNViewAnimated.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNViewAnimated.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNViewAnimated.swift",
       "kind": "BooleanLiteral",
       "offset": 1290,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 7,
       "value": "\"2.0.0\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 27,
       "value": "\"com.netcetera.ThreeDS-SDK\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 560,
       "length": 75,
       "value": "\"TwintSDK: \""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 592,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 1,
       "value": "\", ThreeDS_SDK: \""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 634,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 803,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 839,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 881,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "BooleanLiteral",
       "offset": 319,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "FloatLiteral",
       "offset": 445,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "BooleanLiteral",
       "offset": 685,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ResizeScreen\/ResizeScreenModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ResizeScreen\/ResizeScreenModule.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 36,
       "value": "\"payment-sdk-resize-screen_observer\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 315,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 373,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 379,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 446,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 498,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 502,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 557,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 561,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 607,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 668,
       "length": 29,
       "value": "\"wallee.com.WalleePaymentSdk\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 748,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 124,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 3,
       "value": "\"U\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 323,
       "length": 3,
       "value": "\"A\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/PaymentHandler\/ChallengeStatusHandler.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 3,
       "value": "\"I\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 17,
       "value": "\"THREEDS_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 15,
       "value": "\"THREEDS_ERROR\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 19,
       "value": "\"THREEDS_CANCELLED\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 17,
       "value": "\"THREEDS_TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 24,
       "value": "\"THREEDS_PROTOCOL_ERROR\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 969,
       "length": 23,
       "value": "\"THREEDS_RUNTIME_ERROR\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 1024,
       "length": 25,
       "value": "\"THREEDS_INIT_SUCCESSFUL\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 16,
       "value": "\"threeds_result\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 1157,
       "length": 29,
       "value": "\"THREEDS_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 23,
       "value": "\"THREEDS_ERROR_MESSAGE\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSModule.swift",
       "kind": "BooleanLiteral",
       "offset": 1335,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "BooleanLiteral",
       "offset": 301,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 345,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 570,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 2050,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 4404,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 4410,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSManager.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSManager.swift",
       "kind": "BooleanLiteral",
       "offset": 292,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Helpers\/Theme.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/Theme.swift",
       "kind": "BooleanLiteral",
       "offset": 437,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ApplePay\/ApplePayModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ApplePay\/ApplePayModule.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 16,
       "value": "\"applePayResult\""
     },
     {
-      "filePath": "\/Users\/salek\/Documents\/work\/wallee\/payment-mobile-sdk\/ios\/sdk\/Modules\/ApplePay\/ApplePayModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ApplePay\/ApplePayModule.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 30,
