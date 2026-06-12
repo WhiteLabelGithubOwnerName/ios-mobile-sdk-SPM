@@ -9,7 +9,6 @@ let package = Package(
         .library(name: "TwintSDK", targets: ["TwintSDK"]),
         .library(name: "WalleePaymentSdk", targets: ["WalleePaymentSdk"]),
         .library(name: "hermes", targets: ["hermes"])
-        .library(name: "ThreeDS_SDK", targets: ["ThreeDS_SDK"])
     ],
     dependencies: [
         .package(url: "https://github.com/netceteragroup/ios-3ds-sdk-spm.git", exact: "2.6.1")
@@ -17,10 +16,15 @@ let package = Package(
     targets: [
         .binaryTarget(name: "ReactBrownfield", path: "./ReactBrownfield.xcframework"),
         .binaryTarget(name: "TwintSDK", path: "./TwintSDK.xcframework"),
-        .binaryTarget(name: "WalleePaymentSdk", path: "./WalleePaymentSdk.xcframework"),
         .binaryTarget(name: "hermes", path: "./hermes.xcframework"),
-        .target(name: "ThreeDS_SDK", dependencies: [
-            .product(name: "ThreeDS_SDK", package: "ios-3ds-sdk-spm")
-        ])
+        .binaryTarget(name: "WalleePaymentSdkBinary", path: "./WalleePaymentSdk.xcframework"),
+        .target(
+            name: "WalleePaymentSdk",
+            dependencies: [
+                .target(name: "WalleePaymentSdkBinary"),
+                .product(name: "ThreeDS_SDK", package: "ios-3ds-sdk-spm")
+            ],
+            path: "Sources/WalleePaymentSdk"
+        )
     ]
 )
