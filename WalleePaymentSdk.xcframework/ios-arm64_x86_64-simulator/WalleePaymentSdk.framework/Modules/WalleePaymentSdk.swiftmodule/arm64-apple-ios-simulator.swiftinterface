@@ -73,6 +73,7 @@ public struct PaymentResult {
 @_hasMissingDesignatedInitializers public class PaymentSdk {
   public static let shared: WalleePaymentSdk.PaymentSdk
   public static let SDK_VERSION: Swift.String
+  public static let SDK_BUILD_VERSION: Swift.String
   public static let SDK_DEPENDENCIES_VERSION: Swift.String
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
   public func initialize()
