@@ -5909,14 +5909,14 @@
       "kind": "StringLiteral",
       "offset": 324,
       "length": 8,
-      "value": "\"2.0.01\""
+      "value": "\"2.0.02\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 9,
-      "value": "\"1d3b7e9\""
+      "value": "\"237b99f\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
