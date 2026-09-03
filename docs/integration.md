@@ -177,6 +177,19 @@ class ViewController: UIViewController, PaymentResultObserver {
 }
 ```
 
+### Pending timeout
+
+When the customer aborts an external payment step (for example closing a WebView or a third-party app), the transaction is temporarily in a pending state and the SDK returns the `PENDING` result code immediately.
+
+If you prefer to give the backend a short grace period to reach a final status, call `setPendingTimeout` before launching the payment. While waiting, the SDK shows a loading screen and polls the backend for the transaction status every 2 seconds. As soon as a final status arrives it is returned (`COMPLETED` / `FAILED`); if the timeout elapses first, `PENDING` is returned.
+
+The value is given in seconds and is clamped between `2` and `600` seconds (10 minutes).
+
+```swift
+PaymentSdk.shared.setPendingTimeout(sec: 30)
+PaymentSdk.shared.launchPayment(token: token)
+```
+
 ## Additional integration steps
 
 ### Handle deep links

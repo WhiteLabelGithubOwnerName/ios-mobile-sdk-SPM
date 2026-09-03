@@ -87,6 +87,7 @@ public struct PaymentResult {
   public func close()
   public func setLightTheme(light: Foundation.NSMutableDictionary)
   public func setAnimation(type: WalleePaymentSdk.AnimationEnum)
+  public func setPendingTimeout(sec: Swift.Int)
   public func setDarkTheme(dark: Foundation.NSMutableDictionary)
   public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
   @objc deinit

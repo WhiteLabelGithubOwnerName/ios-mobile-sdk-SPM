@@ -17,4 +17,5 @@
 | `func setDarkTheme(dark: NSMutableDictionary)` | function | Overrides or extends the default dark theme colors. |
 | `func setCustomTheme(custom: NSMutableDictionary?, baseTheme: ThemeEnum)` | function | Forces a custom theme regardless of system appearance. Can override all or selected colors based on a base theme. |
 | `func setAnimation(type: AnimationEnum)` | function | Sets transition animation style used inside the payment flow. |
+| `func setPendingTimeout(sec: Int)` | function | Sets how long (in seconds) the SDK keeps polling the backend for a final transaction status when the customer aborts an external payment step, before returning `PENDING`. The SDK polls every 2 seconds. The value is clamped between `2` and `600` seconds (10 minutes). When not set, the SDK returns `PENDING` immediately. |
 | `func close()` | function | Removes registered observers and performs SDK cleanup. |

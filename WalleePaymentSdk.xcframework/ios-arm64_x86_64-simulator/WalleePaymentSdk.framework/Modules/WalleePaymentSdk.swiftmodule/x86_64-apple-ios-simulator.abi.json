@@ -2544,6 +2544,33 @@
           },
           {
             "kind": "Function",
+            "name": "setPendingTimeout",
+            "printedName": "setPendingTimeout(sec:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdk0bC0C17setPendingTimeout3secySi_tF",
+            "mangledName": "$s16WalleePaymentSdk0bC0C17setPendingTimeout3secySi_tF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setDarkTheme",
             "printedName": "setDarkTheme(dark:)",
             "children": [
@@ -5900,7 +5927,7 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNViewAnimated.swift",
       "kind": "BooleanLiteral",
-      "offset": 1290,
+      "offset": 1385,
       "length": 5,
       "value": "false"
     },
@@ -5909,14 +5936,14 @@
       "kind": "StringLiteral",
       "offset": 324,
       "length": 8,
-      "value": "\"2.0.03\""
+      "value": "\"2.0.04\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 9,
-      "value": "\"6468456\""
+      "value": "\"82ebbaf\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
@@ -5984,14 +6011,14 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 893,
+      "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 935,
+      "offset": 979,
       "length": 5,
       "value": "false"
     },
