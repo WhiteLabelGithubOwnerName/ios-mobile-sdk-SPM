@@ -5936,14 +5936,14 @@
       "kind": "StringLiteral",
       "offset": 324,
       "length": 8,
-      "value": "\"2.0.05\""
+      "value": "\"2.0.06\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 9,
-      "value": "\"3355991\""
+      "value": "\"d170ee2\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
@@ -6046,7 +6046,7 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "BooleanLiteral",
-      "offset": 685,
+      "offset": 709,
       "length": 5,
       "value": "false"
     },
@@ -6058,100 +6058,72 @@
       "value": "\"payment-sdk-resize-screen_observer\""
     },
     {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/Size.swift",
+      "kind": "Array",
+      "offset": 167,
+      "length": 20,
+      "value": "[142, 142, 203, 273]"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/Size.swift",
+      "kind": "Array",
+      "offset": 236,
+      "length": 20,
+      "value": "[152, 152, 213, 282]"
+    },
+    {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 271,
+      "offset": 191,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 315,
+      "offset": 235,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 373,
+      "kind": "IntegerLiteral",
+      "offset": 299,
       "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 379,
-      "length": 3,
-      "value": "0.4"
+      "value": "600"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 446,
+      "offset": 358,
       "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 498,
-      "length": 1,
-      "value": "1"
+      "value": "330"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 502,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 557,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 561,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 607,
+      "offset": 878,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 939,
       "length": 29,
       "value": "\"wallee.com.WalleePaymentSdk\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 1019,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 1096,
       "length": 11,
       "value": "\"rn-screen\""
     },
@@ -6326,51 +6298,23 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 301,
+      "offset": 237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 570,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
       "kind": "FloatLiteral",
-      "offset": 2050,
+      "offset": 1963,
       "length": 3,
       "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4404,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ModalPresentation\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4410,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/ThreeDS\/ThreeDSManager.swift",
