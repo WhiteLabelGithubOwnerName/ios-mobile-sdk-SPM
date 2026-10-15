@@ -8,7 +8,7 @@
 
 ## Requirements
 
-The `WalleePaymentSdk` Swift Package requires Xcode 16.2 or later (Swift 6.0.3+), Swift Package Manager 5.9+, and targets iOS 12.4 or later. Since the package includes precompiled binary frameworks (.xcframework), using an older Xcode or incompatible Swift compiler version may result in build or runtime compatibility issues.
+The `WalleePaymentSdk` Swift Package requires Xcode 16.2 or later (Swift 6.0.3+), Swift Package Manager 5.9+, and targets iOS 15.1 or later. Since the package includes precompiled binary frameworks (.xcframework), using an older Xcode or incompatible Swift compiler version may result in build or runtime compatibility issues.
 
 ## SPM Contains
 
