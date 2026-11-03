@@ -1,0 +1,12 @@
+{
+  "sdkVersion": {
+    "production": {
+      "android": "2.0.100",
+      "ios": "2.1.0"
+    },
+    "staging": {
+      "androidSnapshot": "2.0.99",
+      "ios": "2.1.99"
+    }
+  }
+}

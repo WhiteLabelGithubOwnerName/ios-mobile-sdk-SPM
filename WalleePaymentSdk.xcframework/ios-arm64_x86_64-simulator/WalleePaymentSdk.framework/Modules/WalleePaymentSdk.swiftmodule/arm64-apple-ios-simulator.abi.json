@@ -5934,91 +5934,126 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 324,
-      "length": 8,
-      "value": "\"2.1.02\""
+      "offset": 406,
+      "length": 15,
+      "value": "\"releaseConfig\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 438,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
       "length": 9,
-      "value": "\"4729fd9\""
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 815,
+      "length": 9,
+      "value": "\"125167e\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
       "length": 27,
       "value": "\"com.netcetera.ThreeDS-SDK\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 986,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 1030,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 1053,
       "length": 75,
       "value": "\"TwintSDK: \""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 1085,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 656,
+      "offset": 1095,
       "length": 1,
       "value": "\", ThreeDS_SDK: \""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 688,
+      "offset": 1127,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 1269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 1296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 937,
+      "offset": 1376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 979,
+      "offset": 1418,
       "length": 5,
       "value": "false"
     },
