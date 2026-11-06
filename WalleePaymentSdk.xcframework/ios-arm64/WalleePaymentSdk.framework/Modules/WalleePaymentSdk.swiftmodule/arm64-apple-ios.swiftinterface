@@ -5,11 +5,9 @@
 import Combine
 import Foundation
 import PassKit
-import ReactBrownfield
 import Swift
 import SwiftUI
 import ThreeDS_SDK
-import TwintSDK
 import UIKit
 @_exported import WalleePaymentSdk
 import _Concurrency
@@ -76,12 +74,13 @@ public struct PaymentResult {
   public static let SDK_BUILD_VERSION: Swift.String
   public static let SDK_DEPENDENCIES_VERSION: Swift.String
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
-  public func initialize()
+  public func initialize(deepLink: Swift.String? = nil)
   public func resultObserver(eventObserver: any WalleePaymentSdk.PaymentResultObserver)
   public func launchPayment(token: Swift.String, paymentMethodConfigurationId: Swift.Int? = nil)
   @available(iOS 13.0, *)
   public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool, paymentMethodConfigurationId: Swift.Int? = nil)
   public func configureApplePay(merchantId: Swift.String)
+  @available(*, deprecated, message: "Pass deepLink to initialize(deepLink:) instead.")
   public func configureDeepLink(deepLink: Swift.String)
   public func configureBaseUrl(baseUrl: Swift.String?)
   public func close()

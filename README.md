@@ -20,7 +20,7 @@ The Swift Package includes the following precompiled binary frameworks:
 - **TwintSDK** – TWINT payment method integration
 - **hermes** – Hermes JavaScript engine runtime used by the React Native layer
 
-All modules are distributed as `.xcframework` binaries and are automatically resolved by Swift Package Manager during integration.
+All modules are distributed as `.xcframework` binaries and are bundled into the single `WalleePaymentSdk` library. They are not available as separate products.
 
 ## How to Add the Package to Your Xcode Project
 
@@ -37,7 +37,7 @@ All modules are distributed as `.xcframework` binaries and are automatically res
 4. After selecting the package, click **Add Package**.  
    ![Select SPM](./docs/imgs/ios-spm-2.png)
 
-5. Choose the appropriate target for the package and press **Add Package**.  
+5. Add the `WalleePaymentSdk` library to your app target and press **Add Package**. It includes all required frameworks.  
    ![Target SPM](./docs/imgs/ios-spm-3.png)
 
 6. The new package will now be added to your project.  

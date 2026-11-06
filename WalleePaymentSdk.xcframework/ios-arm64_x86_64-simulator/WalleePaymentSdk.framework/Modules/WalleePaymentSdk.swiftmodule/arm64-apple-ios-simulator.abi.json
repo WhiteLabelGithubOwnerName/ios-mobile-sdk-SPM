@@ -397,7 +397,10 @@
         "name": "TwintSDK",
         "printedName": "TwintSDK",
         "declKind": "Import",
-        "moduleName": "WalleePaymentSdk"
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1914,7 +1917,10 @@
         "name": "ReactBrownfield",
         "printedName": "ReactBrownfield",
         "declKind": "Import",
-        "moduleName": "WalleePaymentSdk"
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1993,7 +1999,10 @@
         "name": "TwintSDK",
         "printedName": "TwintSDK",
         "declKind": "Import",
-        "moduleName": "WalleePaymentSdk"
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -2007,7 +2016,10 @@
         "name": "ReactBrownfield",
         "printedName": "ReactBrownfield",
         "declKind": "Import",
-        "moduleName": "WalleePaymentSdk"
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -2250,17 +2262,32 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize()",
+            "printedName": "initialize(deepLink:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WalleePaymentSdk0bC0C10initializeyyF",
-            "mangledName": "$s16WalleePaymentSdk0bC0C10initializeyyF",
+            "usr": "s:16WalleePaymentSdk0bC0C10initialize8deepLinkySSSg_tF",
+            "mangledName": "$s16WalleePaymentSdk0bC0C10initialize8deepLinkySSSg_tF",
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -2430,8 +2457,10 @@
             "usr": "s:16WalleePaymentSdk0bC0C17configureDeepLink04deepF0ySS_tF",
             "mangledName": "$s16WalleePaymentSdk0bC0C17configureDeepLink04deepF0ySS_tF",
             "moduleName": "WalleePaymentSdk",
+            "deprecated": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2678,7 +2707,10 @@
         "name": "ReactBrownfield",
         "printedName": "ReactBrownfield",
         "declKind": "Import",
-        "moduleName": "WalleePaymentSdk"
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -4991,6 +5023,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "SendEventModule",
         "printedName": "SendEventModule",
@@ -5759,21 +5801,21 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 565,
       "length": 35,
       "value": "\"EVENT_SWIFT_TO_OBJC_LISTENER_NAME\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 639,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 685,
       "length": 7,
       "value": "\"event\""
     },
@@ -5794,63 +5836,63 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 606,
       "length": 15,
       "value": "\"twint-payment\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 835,
       "length": 2,
       "value": "39"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 878,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 925,
+      "offset": 934,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1024,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1060,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 1093,
+      "offset": 1102,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1155,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1216,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
@@ -5892,28 +5934,28 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
-      "offset": 77,
+      "offset": 86,
       "length": 12,
       "value": "\"PaymentSdk\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
-      "offset": 190,
+      "offset": 199,
       "length": 43,
       "value": "\"wallee-payment-sdk-close-app-notification\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "StringLiteral",
-      "offset": 587,
+      "offset": 596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Screens\/RNScreenController.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 629,
       "length": 5,
       "value": "false"
     },
@@ -5934,119 +5976,154 @@
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 324,
-      "length": 8,
-      "value": "\"2.1.03\""
+      "offset": 424,
+      "length": 15,
+      "value": "\"releaseConfig\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 456,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
       "length": 9,
-      "value": "\"2b63d88\""
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 833,
+      "length": 9,
+      "value": "\"da4e5bd\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
       "length": 27,
       "value": "\"com.netcetera.ThreeDS-SDK\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 1004,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 1048,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 1071,
       "length": 75,
       "value": "\"TwintSDK: \""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 1103,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 656,
+      "offset": 1113,
       "length": 1,
       "value": "\", ThreeDS_SDK: \""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 688,
+      "offset": 1145,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 1287,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 1314,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 937,
+      "offset": 1394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/PaymentSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 979,
+      "offset": 1436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "IntegerLiteral",
-      "offset": 232,
+      "offset": 241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "BooleanLiteral",
-      "offset": 319,
+      "offset": 328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "FloatLiteral",
-      "offset": 445,
+      "offset": 454,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Utils\/ReactViewLayoutCalculator.swift",
       "kind": "BooleanLiteral",
-      "offset": 709,
+      "offset": 718,
       "length": 5,
       "value": "false"
     },
@@ -6343,6 +6420,27 @@
       "offset": 292,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 31,
+      "value": "\"DEEP_LINK_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 15,
+      "value": "\"deep_link_url\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 21,
+      "value": "\"mobile-sdk-callback\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/UeY0n1JvT\/0\/frontend\/payment-mobile-sdk\/ios\/sdk\/Helpers\/Theme.swift",

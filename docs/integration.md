@@ -65,10 +65,9 @@ class ViewController: UIViewController, PaymentResultObserver {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        paymentSdk.initialize()
+        paymentSdk.initialize(deepLink: "uniq-payment-deep-link")
         paymentSdk.resultObserver(eventObserver: self)
         paymentSdk.configureApplePay(merchantId: "merchant.your.id")
-        paymentSdk.configureDeepLink(deepLink: "uniq-payment-deep-link")
     }
 
     func paymentResult(paymentResultMessage: PaymentResult) {
@@ -84,6 +83,8 @@ class ViewController: UIViewController, PaymentResultObserver {
 
 Once the payment is completed, the SDK closes automatically and calls `paymentResult(...)`.
 
+⚠️ `initialize` and `resultObserver` must be called before `launchPayment`. Otherwise the SDK stops with a fatal error. Passing a `deepLink` is recommended. See [Configure deep link](#configure-deep-link).
+
 ---
 
 ### Basic usage SwiftUI
@@ -98,10 +99,9 @@ class PaymentManager: PaymentResultObserver {
     private let paymentSdk = PaymentSdk.shared
 
     init() {
-        paymentSdk.initialize()
+        paymentSdk.initialize(deepLink: "uniq-payment-deep-link")
         paymentSdk.resultObserver(eventObserver: self)
         paymentSdk.configureApplePay(merchantId: "merchant.your.id")
-        paymentSdk.configureDeepLink(deepLink: "uniq-payment-deep-link")
     }
 
     func paymentResult(paymentResultMessage: PaymentResult) {
@@ -194,7 +194,7 @@ PaymentSdk.shared.launchPayment(token: token)
 
 ### Handle deep links
 
-For payment methods such as TWINT, your app must forward incoming URLs back to the SDK.
+Your app must forward all incoming URLs back to the SDK. The SDK uses them to receive the payment result when the customer returns from a payment step outside the SDK, for example a bank page opened in the browser or a third-party payment app such as TWINT.
 
 Call:
 
@@ -215,20 +215,32 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
-Without this integration, the SDK may not receive the final payment result after returning from third-party payment apps.
+`onHandleOpenURL` returns `true` when the URL was handled by the SDK, so you can keep handling your own URLs when it returns `false`.
+
+Without this integration, the SDK may not receive the final payment result after returning from the browser or third-party payment apps.
 
 ---
 
 ### Configure deep link
 
-Configure deep linking inside the SDK:
+⚠️ **This step is recommended for all integrations**, regardless of the payment methods you use. Without a deep link, customers may not return to your app after a payment step outside the SDK (for example a bank page opened in the browser or a third-party payment app).
+
+When the payment is finished, the backend redirects to a deep link with the payment result, for example `uniq-payment-deep-link://mobile-sdk-callback/successCallback`.
+
+- If the payment step runs inside the SDK, the SDK handles the deep link directly.
+- If the payment step runs outside the SDK, for example on a bank page opened in the browser or in a third-party payment app, that browser or app opens the deep link. iOS then returns the customer to your app, and the SDK receives the payment result through [`onHandleOpenURL`](#handle-deep-links).
+
+You only provide the URL scheme. The deep link URL is built by the backend. Do not build, modify or open it yourself. The SDK does not trust the deep link content. It always fetches the final payment state from the backend, so the deep link only tells the SDK to check the result.
+
+Use a valid URI scheme: lowercase letters, digits, `+`, `-` and `.`, starting with a letter (no underscores). If the scheme is missing or invalid, the backend falls back to the default result URL, and customers may not return to your app after a payment step outside the SDK.
+
+Pass your deep link to `initialize` before launching a payment:
 
 ```swift
 let paymentSdk = PaymentSdk.shared
 
-paymentSdk.initialize()
+paymentSdk.initialize(deepLink: "uniq-payment-deep-link")
 paymentSdk.resultObserver(eventObserver: self)
-paymentSdk.configureDeepLink(deepLink: "uniq-payment-deep-link")
 ```
 
 The same value must also be configured in your `Info.plist`:
@@ -247,9 +259,9 @@ The same value must also be configured in your `Info.plist`:
 </array>
 ```
 
-⚠️ **This step is required for TWINT integration.**
+The SDK does not check your `Info.plist`. If the scheme is missing there, the payment can launch, but customers cannot return to your app from third-party payment apps.
 
-You also need to configure `LSApplicationQueriesSchemes` for TWINT issuer apps:
+For TWINT integration, you also need to configure `LSApplicationQueriesSchemes` for TWINT issuer apps:
 
 ```xml
  <key>CFBundleURLTypes</key>
